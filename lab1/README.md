@@ -2,6 +2,11 @@
 
 Minimal Python project scaffold for DS/MLOps labs.
 
+## Project layout
+
+- `lab1/src/mlops_lab1`: package code
+- `lab1/scripts`: demo script for lint/type checks
+
 ## Setup (Unix)
 
 ```bash
