@@ -1,6 +1,6 @@
 # Lab 1 - MLOps
 
-Minimal Python project scaffold for DS/MLOps labs.
+Minimal Python project scaffold for DS/MLOps labs (main edit).
 
 ## Project layout
 
