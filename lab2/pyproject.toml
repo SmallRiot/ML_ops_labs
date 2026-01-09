@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mlops-lab2"
+version = "0.1.0"
+description = "Lab 2: S3 data pipeline"
+authors = ["Danila Fedin"]
+readme = "README.md"
+packages = [{ include = "mlops_lab2", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.34.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+mypy = "^1.8.0"
+
+[tool.mypy]
+strict = true
+python_version = "3.10"
+exclude = "(^|/)(__pycache__/|data/|.venv/|venv/)"
+
+[tool.flake8]
+max-line-length = 99
+per-file-ignores = ["__init__.py:F401"]
+exclude = [".git", "__pycache__", ".venv", "venv", "build", "dist", "data"]
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
