@@ -22,3 +22,7 @@ def summarize_numbers(values: Iterable[float]) -> Summary:
     count = len(numbers)
     mean = total / count
     return Summary(count=count, total=total, mean=mean)
+
+
+def format_summary(summary: Summary) -> str:
+    return f"count={summary.count} total={summary.total:.2f} mean={summary.mean:.2f}"
