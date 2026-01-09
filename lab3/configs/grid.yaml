@@ -1,0 +1,10 @@
+experiment_name: iris_logreg_grid
+# key in S3 to the processed dataset
+dataset_key: processed/iris_normalized.csv
+base_params:
+  test_size: 0.2
+  random_state: 42
+grid:
+  max_iter: [200, 400]
+  solver: [lbfgs, liblinear]
+  c_value: [0.5, 1.0]

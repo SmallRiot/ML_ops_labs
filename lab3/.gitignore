@@ -1,0 +1,6 @@
+.env
+__pycache__/
+.venv/
+venv/
+lab3/data/processed/
+lab3/artifacts/

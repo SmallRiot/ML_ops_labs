@@ -1,0 +1,10 @@
+experiment_name: iris_logreg
+# key in S3 to the processed dataset
+# example: processed/iris_normalized.csv
+dataset_key: processed/iris_normalized.csv
+params:
+  test_size: 0.2
+  random_state: 42
+  max_iter: 200
+  solver: lbfgs
+  c_value: 1.0
