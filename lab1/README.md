@@ -19,6 +19,7 @@ pip install -r lab1/requirements-dev.txt
 ## Install pre-commit hooks
 
 ```bash
+cd /path/to/ML_ops_labs
 pre-commit install
 ```
 
