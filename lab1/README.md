@@ -1,6 +1,6 @@
 # Lab 1 - MLOps
 
-This project uses the cookiecutter-data-science template (v1).
+I use the cookiecutter-data-science template (v1) for this lab.
 
 ## Project layout
 
