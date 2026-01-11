@@ -1,11 +1,17 @@
 # Lab 1 - MLOps
 
-Minimal Python project scaffold for DS/MLOps labs (conflict resolved).
+This project uses the cookiecutter-data-science template (v1).
 
 ## Project layout
 
-- `lab1/src/mlops_lab1`: package code
-- `lab1/scripts`: demo script for lint/type checks
+- `data/`: datasets (raw/interim/processed)
+- `docs/`: documentation
+- `models/`: trained models
+- `notebooks/`: Jupyter notebooks
+- `references/`: manuals and data dictionaries
+- `reports/`: generated reports and figures
+- `src/`: project code (including `src/mlops_lab1`)
+- `scripts/`: demo scripts for lint/type checks
 
 ## Setup (Unix)
 
@@ -35,3 +41,8 @@ mypy lab1/src lab1/scripts
 ```bash
 python lab1/scripts/demo_script.py
 ```
+
+## Template reference
+
+Project based on the cookiecutter-data-science template:
+https://drivendata.github.io/cookiecutter-data-science/
